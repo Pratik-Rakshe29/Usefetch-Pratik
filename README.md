@@ -1,16 +1,38 @@
-# React + Vite
+# React useFetch Custom Hook Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project illustrates how to create and use a custom React hook for fetching data from an API in a straightforward and reusable manner. 
+The application retrieves product data from a public API and displays product images, names, and prices on the screen. It effectively manages loading and error states using React Hooks.
+Also, I have kept only 10 images fetched from api using slice to keep it easy.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Custom Hook (`useFetch`)
+- API Fetching
+- Loading State
+- Error Handling
+- Built using Vite + React
 
-## React Compiler
+## API Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://api.escuelajs.co/api/v1/products
 
-## Expanding the ESLint configuration
+## Project Structure
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+Assignment-5/
+│
+├── src/
+│   ├── hooks/
+│   │   └── useFetch.js
+│   │
+│   ├── components/
+│   │   └── ProductList.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│
+├── package.json
+└── README.md
+```
