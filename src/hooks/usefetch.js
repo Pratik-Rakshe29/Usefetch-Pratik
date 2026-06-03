@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useCallback } from "react";
 
-const usefetch = (url) => {
+const useFetch = (url) => {
 
     // its the state to store the fetched data
     const[data, setData] = useState([]);
@@ -48,4 +48,4 @@ const usefetch = (url) => {
   return { data, isLoading, error };
 }
 
-export default usefetch
+export default useFetch

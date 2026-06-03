@@ -1,7 +1,7 @@
 import React from 'react'
-import usefetch from '../hooks/usefetch';
+import usefetch from '../hooks/useFetch';
 
-const productlist = () => {
+const ProductList = () => {
    
     // using the custom hook to fetch data from the api
     const{
@@ -42,4 +42,4 @@ const productlist = () => {
   );
 };
 
-export default productlist
+export default ProductList
