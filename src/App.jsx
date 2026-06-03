@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductList from './components/productlist';
+import ProductList from './components/ProductList';
 import './App.css';
 
 function App() {
