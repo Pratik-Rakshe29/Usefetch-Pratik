@@ -1,22 +1,21 @@
 # React useFetch Custom Hook Assignment
 
-This project illustrates how to create and use a custom React hook for fetching data from an API in a straightforward and reusable manner. 
-The application retrieves product data from a public API and displays product images, names, and prices on the screen. It effectively manages loading and error states using React Hooks.
-Also, I have kept only 10 images fetched from api using slice to keep it easy.
+This project is made using React and Vite.
+
+It uses a custom hook called useFetch to fetch product data from an API and display it on the screen.
+
 
 ## Features
 
 - Custom Hook (`useFetch`)
 - API Fetching
 - Loading State
-- Error Handling
-- Built using Vite + React
+- Product List Display
 
 ## API Used
 
 https://api.escuelajs.co/api/v1/products
 
-## Project Structure
 ## Project Structure
 
 ```bash
@@ -36,3 +35,14 @@ Assignment-5/
 ├── package.json
 └── README.md
 ```
+
+
+## How to Run
+
+1. Install dependencies (node modules)
+   npm install
+
+2. Start development server
+   npm run dev
+
+3. Open the local server link shown in terminal.
