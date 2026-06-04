@@ -1,0 +1,1 @@
+body{background-color:#f4f4f4;margin:20px;font-family:Arial,sans-serif}h1{text-align:center}.product-container{grid-template-columns:repeat(4,1fr);gap:20px;display:grid}.product-card{background:#fff;border-radius:5px;margin:15px 0;padding:15px}.product-card img{width:100%;height:auto;margin-top:10px}
